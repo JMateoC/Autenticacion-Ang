@@ -1,0 +1,9 @@
+<div class="navbar">
+  <div class="navbar-brand"><a [routerLink]="['/home']">Angular Supabase</a></div>
+  <ul class="navbar-menu">
+    <li class="navbar-item"><a [routerLink]="['/register']">Sign Up</a></li>
+    <li class="navbar-item"><a [routerLink]="['/login']">Login</a></li>
+    <li class="navbar-item"><button (click)="logOut()" class="logout-button">Logout</button></li>
+  </ul>
+</div>
+
